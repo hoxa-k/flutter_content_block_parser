@@ -1,0 +1,22 @@
+name: flutter_content_block_parser
+description: Library for parsing content blocks in json for display as widgets tree
+version: 0.1.0
+homepage:
+
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+  flutter: ">=3.3.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get_it: ^7.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  mockito: ^5.4.0
+  mocktail: ^0.3.0
+flutter:
+
