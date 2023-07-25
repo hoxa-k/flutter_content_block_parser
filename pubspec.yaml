@@ -1,4 +1,4 @@
-name: flutter_content_block_parser
+name: content_block_parser
 description: Library for parsing content blocks in json for display as widgets tree
 version: 0.1.0
 homepage:
