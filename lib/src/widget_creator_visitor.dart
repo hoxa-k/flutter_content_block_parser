@@ -7,9 +7,6 @@ import 'package:content_block_parser/src/ioc_container.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
-typedef OneChildWidget = Widget Function(Widget);
-typedef MultipleChildWidget = Widget Function(List<Widget>);
-
 class WidgetCreatorVisitor implements Visitor {
   final Queue<List<dynamic>> result = Queue()..add([]);
   final Queue<BlockContainer> parent = Queue();
