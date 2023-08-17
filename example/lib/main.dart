@@ -62,8 +62,10 @@ const jsonContentBlocks = {
         },
         {
           "id": "0284c87e-950b-48a6-b14d-492e6879aec8",
-          "type": "link",
-          "parameters": {},
+          "type": "text",
+          "parameters": {
+            "formattingStyles": ["b"],
+          },
           "is_external": true,
           "text": "сообщает",
           "url":
@@ -134,6 +136,10 @@ const jsonContentBlocks = {
       ]
     },
     {
+      "id": "f67f866c-8ec9-4856-975d-149e6werwer",
+      "type": "hr",
+    },
+    {
       "id": "14642140-c184-4f0e-9713-648bad508df9",
       "type": "paragraph",
       "parameters": {},
@@ -199,35 +205,6 @@ const jsonContentBlocks = {
           "parameters": {},
           "text":
               "По данным Всемирной метеорологической организации (ВМО), средние темпы подъема уровня океанов составили в 2013-2021 гг 4,5 мм в год, что более чем в два раза выше, чем в 1993-2002 гг."
-        }
-      ]
-    },
-    {
-      "id": "073ed718-b6dc-4034-bbb7-dcc18db8afb3",
-      "type": "paragraph",
-      "parameters": {},
-      "items": [
-        {
-          "id": "bbcebfa4-78c5-4c5c-a68c-9746a3edb021",
-          "type": "text",
-          "parameters": {},
-          "text":
-              "В прибрежных зонах, которым угрожает затопление из-за повышения уровня мирового океана, по всему миру проживают около 600 млн человек."
-        }
-      ]
-    },
-    {
-      "id": "073ed718-b6dc-4034-bbb7-dcc18db8afb5",
-      "type": "paragraph",
-      "parameters": null,
-      "items": [
-        {
-          "id": "bbcebfa4-78c5-4c5c-a68c-9746a3edb05",
-          "type": "link",
-          "parameters": {},
-          "is_external": false,
-          "text": "А в конце будет ссылка на другую новость",
-          "url": "ru.tass.tassovec://news/randomId"
         }
       ]
     },
@@ -376,6 +353,35 @@ const jsonContentBlocks = {
             },
             {"id": "b940ed66-c7ed-11ed-a122-f70e6478f434", "type": "hard_break"}
           ]
+        }
+      ]
+    },
+    {
+      "id": "073ed718-b6dc-4034-bbb7-dcc18db8afb3",
+      "type": "paragraph",
+      "parameters": {},
+      "items": [
+        {
+          "id": "bbcebfa4-78c5-4c5c-a68c-9746a3edb021",
+          "type": "text",
+          "parameters": {},
+          "text":
+              "В прибрежных зонах, которым угрожает затопление из-за повышения уровня мирового океана, по всему миру проживают около 600 млн человек."
+        }
+      ]
+    },
+    {
+      "id": "073ed718-b6dc-4034-bbb7-dcc18db8afb5",
+      "type": "paragraph",
+      "parameters": null,
+      "items": [
+        {
+          "id": "bbcebfa4-78c5-4c5c-a68c-9746a3edb05",
+          "type": "link",
+          "parameters": {},
+          "is_external": false,
+          "text": "А в конце будет ссылка на другую новость",
+          "url": "ru.tass.tassovec://news/randomId"
         }
       ]
     }

@@ -6,13 +6,17 @@ class DocumentWidget extends StatelessWidget {
   final List<dynamic> children;
 
   const DocumentWidget(this.block, {this.children = const [], super.key});
+
   @override
   Widget build(BuildContext context) {
-    return ListView(
-      physics: const NeverScrollableScrollPhysics(),
-      shrinkWrap: true,
-      padding: EdgeInsets.zero,
-      children: List<Widget>.from(children),
+    return Padding(
+      padding: const EdgeInsets.all(20),
+      child: ListView(
+        physics: const NeverScrollableScrollPhysics(),
+        shrinkWrap: true,
+        padding: EdgeInsets.zero,
+        children: List<Widget>.from(children),
+      ),
     );
   }
 }

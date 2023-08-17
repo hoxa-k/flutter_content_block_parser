@@ -6,6 +6,7 @@ import 'package:content_block_parser_example/widgets/list_widget.dart';
 import 'package:content_block_parser_example/widgets/list_item_widget.dart';
 import 'package:content_block_parser_example/widgets/paragraph_widget.dart';
 import 'package:content_block_parser_example/widgets/text_block_widget.dart';
+import 'package:flutter/material.dart';
 
 import 'models/text.dart';
 
@@ -52,5 +53,9 @@ void initContentBlockWidgets() {
   WidgetCreatorVisitor.registerBlocWidget(
     'main_container',
     (p0, p1) => DocumentWidget(p0 as BlockContainer, children: p1 ?? []),
+  );
+  WidgetCreatorVisitor.registerBlocWidget(
+    'hr',
+        (p0, p1) => const Divider(color: Colors.red, thickness: 2),
   );
 }
