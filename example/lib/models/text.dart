@@ -12,7 +12,7 @@ class TextBlock extends IBlock {
       block.type,
       block.id,
       text: block.obj?['text'],
-      parameters: block.obj?['parameters']?['formattingStyles'],
+      parameters: block.obj?['parameters']?['formatting_styles'],
     );
   }
 }

@@ -27,7 +27,7 @@ class WidgetCreatorVisitor implements Visitor {
   @override
   void visitElement(IBlock element) {
     _setFromParent(element, parent.last);
-    result.last.add(getBlocWidget(element, parent: parent.last));
+    result.last.add(getBlockWidget(element, parent: parent.last));
   }
 
   @override
@@ -37,7 +37,7 @@ class WidgetCreatorVisitor implements Visitor {
     _setFromParent(container, containerParent);
 
     result.removeLast();
-    result.last.add(getBlocWidget(
+    result.last.add(getBlockWidget(
       container,
       children: children,
       parent: containerParent
@@ -53,7 +53,7 @@ class WidgetCreatorVisitor implements Visitor {
     element.obj?['parentSize'] = parent.obj?['parentSize'];
   }
 
-  static void registerBlocWidget(
+  static void registerBlockWidget(
     String blockType,
     DiagnosticableTree Function(IBlock, List<dynamic>?) blocWidget,
   ) {
@@ -63,7 +63,7 @@ class WidgetCreatorVisitor implements Visitor {
     );
   }
 
-  static dynamic getBlocWidget(IBlock element,
+  static dynamic getBlockWidget(IBlock element,
       {List<dynamic>? children, IBlock? parent}) {
     final instanceNameWithParent =
         parent != null ? '${parent.type} / ${element.type}' : null;
@@ -77,6 +77,7 @@ class WidgetCreatorVisitor implements Visitor {
             ? element.type
             : 'default';
 
+    print('instanceName $instanceName $element $children');
     return IoC.get<DiagnosticableTree>(
       instanceName: instanceName,
       param1: element,
