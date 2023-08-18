@@ -4,7 +4,7 @@ Demonstrates how to use the content_block_parser plugin.
 
 ## Getting Started
 
-<img alt="screenshot" src="screenshot/news.png" width="400"/> <img alt="screenshot" src="screenshot/news2.png" width="400"/>
+<img alt="screenshot" src="screenshot/screen1.png" width="400"/>
 
 ### Register widgets for content blocks
 

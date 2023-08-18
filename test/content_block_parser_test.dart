@@ -31,9 +31,9 @@ void main() {
     registerFallbackValue(FakeContentBlock());
     registerFallbackValue(FakeContentBlockContainer());
 
-    WidgetCreatorVisitor.registerBlocWidget(
+    WidgetCreatorVisitor.registerBlockWidget(
         'MockElement', (p0, p1) => Text(p0.id));
-    WidgetCreatorVisitor.registerBlocWidget(
+    WidgetCreatorVisitor.registerBlockWidget(
       'MockDocument',
       (p0, p1) => Column(children: List<Widget>.from(p1 ?? [])),
     );
