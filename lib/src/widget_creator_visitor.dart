@@ -77,7 +77,6 @@ class WidgetCreatorVisitor implements Visitor {
             ? element.type
             : 'default';
 
-    print('instanceName $instanceName $element $children');
     return IoC.get<DiagnosticableTree>(
       instanceName: instanceName,
       param1: element,
