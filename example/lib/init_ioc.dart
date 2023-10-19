@@ -1,11 +1,11 @@
-import 'package:content_block_parser/content_block_parser.dart';
-import 'package:content_block_parser_example/models/list_item.dart';
-import 'package:content_block_parser_example/widgets/default_widget.dart';
-import 'package:content_block_parser_example/widgets/document_widget.dart';
-import 'package:content_block_parser_example/widgets/list_widget.dart';
-import 'package:content_block_parser_example/widgets/list_item_widget.dart';
-import 'package:content_block_parser_example/widgets/paragraph_widget.dart';
-import 'package:content_block_parser_example/widgets/text_block_widget.dart';
+import 'package:flutter_content_block_parser/flutter_content_block_parser.dart';
+import 'package:flutter_content_block_parser_example/models/list_item.dart';
+import 'package:flutter_content_block_parser_example/widgets/default_widget.dart';
+import 'package:flutter_content_block_parser_example/widgets/document_widget.dart';
+import 'package:flutter_content_block_parser_example/widgets/list_widget.dart';
+import 'package:flutter_content_block_parser_example/widgets/list_item_widget.dart';
+import 'package:flutter_content_block_parser_example/widgets/paragraph_widget.dart';
+import 'package:flutter_content_block_parser_example/widgets/text_block_widget.dart';
 import 'package:flutter/material.dart';
 
 import 'models/text.dart';

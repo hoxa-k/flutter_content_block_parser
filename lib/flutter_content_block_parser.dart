@@ -1,6 +1,7 @@
-library content_block_parser;
+library flutter_content_block_parser;
 
 export 'src/widget_creator_visitor.dart';
+export 'src/visitor.dart';
 export 'src/content_block.dart';
 export 'src/i_content_block.dart';
 export 'src/content_block_container.dart';

@@ -1,4 +1,4 @@
-import 'package:content_block_parser/content_block_parser.dart';
+import 'package:flutter_content_block_parser/flutter_content_block_parser.dart';
 import 'init_ioc.dart';
 import 'package:flutter/material.dart';
 
@@ -356,5 +356,6 @@ const jsonContentBlocks = {
       ]
     },
     {"type": "paragraph", "id": "68cf45aa-3da0-11ee-86bd-e13524611d7b", "items":<Map<String, dynamic>>[]},
+    {"type": "image", "id": "68cf45aa-3da0-11ee-86bd-e13524611d7b", "url":"http://eee.ru","authors":[{"name":"ivan","last_name":"ivanov"},{"name":"petr","last_name":"petrov"}]},
   ]
 };
