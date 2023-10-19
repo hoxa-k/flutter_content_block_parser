@@ -1,4 +1,4 @@
-import 'package:content_block_parser/content_block_parser.dart';
+
 
 import 'content_block_container.dart';
 import 'i_content_block.dart';
@@ -14,7 +14,7 @@ class ContentBlock extends IBlock {
         obj['type'],
         obj['id'],
         obj: Map.from(obj),
-        children: (obj['items'] as List<Map<String, dynamic>>)
+        children: (obj['items'] as List).cast<Map<String, dynamic>>()
             .map((e) => ContentBlock.fromJson(e))
             .toList(),
       );

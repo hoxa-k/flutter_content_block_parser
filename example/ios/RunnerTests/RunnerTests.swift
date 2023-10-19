@@ -2,7 +2,7 @@ import Flutter
 import UIKit
 import XCTest
 
-@testable import content_block_parser
+@testable import flutter_content_block_parser
 
 // This demonstrates a simple unit test of the Swift portion of this plugin's implementation.
 //

@@ -89,13 +89,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.17.1"
-  content_block_parser:
-    dependency: "direct main"
-    description:
-      path: ".."
-      relative: true
-    source: path
-    version: "0.0.1"
   convert:
     dependency: transitive
     description:
@@ -149,6 +142,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_content_block_parser:
+    dependency: "direct main"
+    description:
+      path: ".."
+      relative: true
+    source: path
+    version: "0.1.2"
   flutter_driver:
     dependency: transitive
     description: flutter

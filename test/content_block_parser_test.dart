@@ -1,5 +1,4 @@
-import 'package:content_block_parser/content_block_parser.dart';
-import 'package:content_block_parser/src/visitor.dart';
+import 'package:flutter_content_block_parser/flutter_content_block_parser.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';

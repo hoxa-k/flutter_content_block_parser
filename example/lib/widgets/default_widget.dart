@@ -1,4 +1,4 @@
-import 'package:content_block_parser/content_block_parser.dart';
+import 'package:flutter_content_block_parser/flutter_content_block_parser.dart';
 import 'package:flutter/cupertino.dart';
 
 class DefaultWidget extends StatelessWidget {

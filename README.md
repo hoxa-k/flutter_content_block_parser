@@ -1,6 +1,6 @@
-# content_block_parser_example
+# flutter_content_block_parser_example
 
-Demonstrates how to use the content_block_parser plugin.
+Demonstrates how to use the flutter_content_block_parser plugin.
 
 ## Getting Started
 

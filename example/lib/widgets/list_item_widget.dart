@@ -1,4 +1,4 @@
-import 'package:content_block_parser_example/models/list_item.dart';
+import 'package:flutter_content_block_parser_example/models/list_item.dart';
 import 'package:flutter/material.dart';
 
 class ListItemWidget extends StatelessWidget {
